@@ -8,6 +8,8 @@
     <UseWindowsForms>True</UseWindowsForms>
     <StartupObject>TrayFolder.Program</StartupObject>
     <ApplicationIcon>AppIcon.ico</ApplicationIcon>
+    <Authors>newbie79</Authors>
+    <Product>Tray Folder</Product>
   </PropertyGroup>
 
   <ItemGroup>
