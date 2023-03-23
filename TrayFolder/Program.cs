@@ -72,6 +72,7 @@ namespace TrayFolder
                     Process.Start(psi);
                 });
             }
+            contextMenu.Items.Add(new ToolStripSeparator());
             contextMenu.Items.Add("Exit", null, (s, e) => { Application.Exit(); });
             notifyIcon.ContextMenuStrip = contextMenu;
 
