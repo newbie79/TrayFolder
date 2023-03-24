@@ -60,6 +60,7 @@ namespace TrayFolder
 
             notifyIcon.DoubleClick += (s, e) =>
             {
+                System.Diagnostics.Process.Start("explorer.exe", _folderPath);
             };
             notifyIcon.Icon = Icon.ExtractAssociatedIcon(Application.ExecutablePath);
             notifyIcon.Visible = true;

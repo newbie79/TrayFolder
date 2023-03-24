@@ -2,7 +2,7 @@
   "profiles": {
     "TrayFolder": {
       "commandName": "Project",
-      "commandLineArgs": "C:\\Users\\newbi\\Downloads\\icons8-file-folder-emoji"
+      "commandLineArgs": "D:\\"
     }
   }
 }
